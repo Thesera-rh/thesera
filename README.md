@@ -209,6 +209,13 @@ Para iniciar o servidor de desenvolvimento do Vite, execute:
 ### 7.3. Outros Scripts
 
 - **Build para Produção**: Para gerar a versão estática do site para produção, execute:
+  ```bash
+  npm run build
+  ```
+  Os arquivos serão gerados no diretório `dist/`.
 
 - **Preview da Build de Produção**: Para visualizar a build de produção localmente, execute:
+  ```bash
+  npm run preview
+  ```
 
