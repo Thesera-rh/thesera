@@ -39,7 +39,7 @@
     <header>
         <div class="contem_conteudo">
             <div class="imagem_apresentacao">
-                <img :src="imgApresentacao" alt="imagem de apresentação da Thésera.">
+                <img :src="imgApresentacao" alt="Foto profissional da fundadora da Thesera Consultoria de RH, o rosto por trás da abordagem humanizada em gestão de pessoas para PMEs no Vale do Itajaí, SC.">
             </div>
             <div class="texto_apresentacao">
                 <h1>
@@ -56,7 +56,7 @@
             <p class="texto_desktop">Meu desejo de trabalhar com Recursos Humanos nasceu cedo, inspirado pela admiração que eu sentia pela minha tia, profissional da área. Essa inspiração se transformou em propósito e direcionou minha formação em Administração, com ênfase em RH. Ao longo da trajetória, cada experiência fortaleceu minha convicção de que desenvolver pessoas é também desenvolver empresas.</p>
             <p class="texto_mobile">Meu desejo de trabalhar com Recursos Humanos nasceu cedo, inspirado pela admiração que eu sentia pela minha tia, profissional da área. Essa inspiração se transformou em propósito e direcionou minha formação em Administração, com ênfase em RH.</p>
             <div class="contem_imagem">
-                <img :src="imgInfanciaThiara" alt="infancia da thiara.">
+                <img :src="imgInfanciaThiara" alt="Retrato de menina, representando a inspiração e o início da paixão pela carreira em Recursos Humanos da fundadora da Thesera Consultoria de RH no Vale do Itajaí, SC">
             </div>
         </div>
         <div class="conteudo_mobile_continuacao">
@@ -67,7 +67,7 @@
     <section class="adimiracao_thiara">
         <div class="contem_conteudo">
             <div class="contem_imagem">
-                <img :src="imgAdimiracaoThiara" alt="infancia da thiara.">
+                <img :src="imgAdimiracaoThiara" alt="Profissional de recursos humanos com formação em Administração, refletindo a dedicação da fundadora da Thesera em oferecer consultoria estratégica para PMEs em Santa Catarina">
             </div>
             <p>Essa admiração transformou-se em propósito de vida. Sou formada em Administração, com ênfase em Recursos Humanos, e ao longo da minha trajetória percorri diferentes caminhos. Cada experiência contribuiu para o meu desenvolvimento, trazendo aprendizados valiosos e reforçando minha paixão por gente e gestão.</p>
         </div>
@@ -78,7 +78,7 @@
             <p class="texto_desktop">Hoje, meu maior sonho é contribuir para que empresas construam culturas mais humanas e sustentáveis, com pessoas que se sintam parte, que tenham espaço para crescer e gerar valor real. Porque, no fim das contas, não é apenas sobre RH,  é sobre gente, sobre propósito e sobre transformar relações de trabalho em algo que faça sentido.</p>
             <p class="texto_mobile">Hoje, meu maior sonho é contribuir para que empresas construam culturas mais humanas e sustentáveis, com pessoas que se sintam parte, que tenham espaço para crescer e gerar valor real.</p>
             <div class="contem_imagem">
-                <img :src="imgSonho" alt="infancia da thiara.">
+                <img :src="imgSonho" alt="Retrato profissional da dona da Thesera Consultoria de RH, que acredita que o propósito e as pessoas são os maiores ativos para transformar as relações de trabalho.">
             </div>
         </div>
         <div class="conteudo_mobile_continuacao">

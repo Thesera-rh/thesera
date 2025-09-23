@@ -41,6 +41,7 @@
         {
             id:0, 
             img: img18, 
+            alt: 'Blocos de madeira com ícones de engrenagens, lupa, pessoas e gráficos. Representa os serviços de consultoria da Thesera em estruturação de processos, cargos e salários e gestão de benefícios.',
             flexDirection: 'normal', 
             titulo: 'Estrutura e Organização', 
             texto: 'Toda empresa precisa de base sólida para crescer. Estruturamos processos, responsabilidades e rotinas que trazem clareza ao trabalho e eliminam ruídos, criando um ambiente mais leve, alinhado e produtivo.',
@@ -75,7 +76,8 @@
         },
         {
             id:1, 
-            img: img20, 
+            img: img20,
+            alt: 'Mãos de profissionais analisando um gráfico de resultados, simbolizando a Thesera Consultoria de RH que otimiza a cultura e o Employee Experience com base em dados de pesquisa de clima', 
             flexDirection: 'invertido', 
             titulo: 'Cultura e Experiência do Colaborador', 
             texto: 'Cultura forte e experiência positiva são construídas no dia a dia. Criamos ferramentas e práticas que fortalecem a identidade da empresa, promovem engajamento e tornam o ambiente de trabalho mais inspirador.',
@@ -111,6 +113,7 @@
         {
             id:2, 
             img: img21, 
+            alt: 'Mulher movendo uma peça de madeira em um tabuleiro, simbolizando a consultoria da Thesera para o desenvolvimento de talentos e a preparação de lideranças por meio de PDI e Avaliação de Desempenho.',
             flexDirection: 'normal', 
             titulo: 'Desenvolvimento e Desempenho', 
             texto: 'Empresas crescem quando pessoas crescem. Desenvolvemos programas de capacitação e métodos de avaliação que estimulam a evolução contínua, aumentam a performance e preparam talentos para os próximos desafios.',
@@ -142,7 +145,8 @@
         },
         {
             id:3, 
-            img: img22, 
+            img: img22,
+            alt: 'Mãos com luvas replantando uma muda, simbolizando a Thesera, que nutre o crescimento dos colaboradores através de programas de bem-estar e planos de carreira e sucessão.', 
             flexDirection: 'invertido', 
             titulo: 'Gestão e Retenção', 
             texto: 'Manter talentos exige cuidado e estratégia. Apoiamos sua empresa na gestão de benefícios e na criação de práticas que aumentam a satisfação, reduzem a rotatividade e fortalecem o vínculo entre colaborador e organização.',
@@ -165,7 +169,8 @@
         },
         {
             id:4, 
-            img: img19, 
+            img: img19,
+            alt: 'Duas profissionais em um escritório moderno, representando os serviços de Recrutamento e Seleção da Thesera e o hunting para posições estratégicas.', 
             flexDirection: 'normal', 
             titulo: 'Atração e Seleção', 
             texto: 'Encontrar as pessoas certas é o primeiro passo para construir times de alta performance. Atuamos em todas as etapas da atração e seleção, garantindo que o processo seja ágil, estratégico e conectado à cultura da empresa.',
@@ -216,7 +221,7 @@
                 </h1>
             </div>
             <div class="imagem_apresentacao">
-                <img :src="imgApresentacao" alt="imagem de apresentação da Thésera.">
+                <img :src="imgApresentacao" alt="Mãos entrelaçadas em gesto de apoio e suporte, simbolizando a Thesera Consultoria de RH como um método essencial para PMEs otimizarem gestão de pessoas e processos.">
             </div>
         </div>
     </header>
@@ -241,7 +246,7 @@
                         @click="handleCard(solucao.id)"
                     >x</button>
                     <div class="contem_imagem">
-                        <img :src="solucao.img" alt="">
+                        <img :src="solucao.img" :alt="solucao.alt">
                     </div>
                     <div class="contem_texto">
                         <h3

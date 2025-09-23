@@ -40,7 +40,7 @@
             <div class="contem_conteudo">
                 <div class="contem_header">
                     <div class="contem_imagem_header">
-                        <img :src="imgApresentacao" alt="mãos dadas para representar a união.">
+                        <img :src="imgApresentacao" alt="Mãos de diferentes pessoas e origens unidas, simbolizando a Thesera Consultoria de RH, que promove a união de talentos para criar culturas empresariais mais humanas e sustentáveis">
                     </div>
                     <div class="contem_texto_header">
                         <div class="contem_texto">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                     <div class="contem_imagem_header">
-                        <img :src="imgApresentacao2" alt="">
+                        <img :src="imgApresentacao2" alt="Profissional sorrindo ao receber uma xícara em uma conversa genuína, representando a escuta atenta e as relações de confiança que a Thesera Consultoria de RH constrói.">
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
             <div class="contem_conteudo">
                 <div class="contem_header">
                     <div class="contem_imagem_header">
-                        <img :src="imgApresentacao3" alt="">
+                        <img :src="imgApresentacao3" alt="Mãos de profissionais unidas para montar um quebra-cabeça, ilustrando a crença da Thesera de que toda conquista é, no fundo, coletiva e precisa de gente para acontecer.">
                     </div>
                     <div class="contem_texto_header">
                         <div class="contem_texto">
@@ -107,7 +107,7 @@
                     <div class="linha_separadora"></div>
                 </div>
                 <div class="contem_imagem">
-                    <img :src="imgApresentacao4" alt="imagem para representar uma mensage de trabalho.">
+                    <img :src="imgApresentacao4" alt="Planta em um escritório, simbolizando a Thesera Consultoria de RH que cria ambientes de trabalho férteis para que pessoas e negócios floresçam">
                 </div>
                 <div class="contem_primeiro_texto">
                     <div class="contem_texto view_mobile">

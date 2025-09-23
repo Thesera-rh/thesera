@@ -10,15 +10,15 @@
                 <img class="logo_thesera" :src="logoWhite" alt="Logo da Thésera branco." />
             </div>
             <div class="redes_sociais desktop_redes_sociais">
-                <a href="" class="icone">
+                <a href="https://www.instagram.com/thesera.rh" target="_blank" class="icone">
                     <font-awesome-icon class="icon" :icon="['fab', 'instagram']" />
                     <span>@thesera.rh</span>
                 </a>
-                <a href="#" class="icone">
+                <a href="mailto:thiara@thesera.com.br" target="_blank" class="icone">
                     <font-awesome-icon class="icon" icon="envelope" />
                     <span>thiara@thesera.com.br</span>
                 </a>
-                <a href="" class="icone">
+                <a href="https://wa.me/5547992889906" target="_blank" class="icone">
                     <font-awesome-icon class="icon" :icon="['fab', 'whatsapp']" />
                     <span>+55 (47) 99288-9906</span>
                 </a>
@@ -27,13 +27,13 @@
             <div class="redes_sociais mobile_redes_sociais">
                 <p>Entre em contato!</p>
                 <div class="contem_icones">
-                    <a href="" class="icone">
+                    <a href="mailto:thiara@thesera.com.br" target="_blank" class="icone">
                         <font-awesome-icon class="icon" icon="envelope" />
                     </a>
-                    <a href="" class="icone">
+                    <a href="https://www.instagram.com/thesera.rh" target="_blank" class="icone">
                         <font-awesome-icon class="icon" :icon="['fab', 'instagram']" />
                     </a>
-                    <a href="" class="icone">
+                    <a href="https://wa.me/5547992889906" target="_blank" class="icone">
                         <font-awesome-icon class="icon" :icon="['fab', 'whatsapp']" />
                     </a>
                 </div>

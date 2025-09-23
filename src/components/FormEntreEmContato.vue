@@ -216,13 +216,13 @@ const handleSubmit = async (e: Event) => {
       <div class="contem_redes_sociais">
         <h2>Nos acompanhe nas redes sociais!</h2>
         <div class="contem_incones">
-          <a href="" class="icone">
+          <a href="https://wa.me/5547992889906" target="_blank" class="icone">
             <font-awesome-icon class="icon" :icon="['fab', 'whatsapp']" />
           </a>
-          <a href="" class="icone">
+          <a href="https://www.instagram.com/thesera.rh" target="_blank" class="icone">
             <font-awesome-icon class="icon" :icon="['fab', 'instagram']" />
           </a>
-          <a href="" class="icone">
+          <a href="https://www.linkedin.com/in/thiara-francielle-heckmann-6074b52b/" target="_blank" class="icone">
             <font-awesome-icon class="icon" :icon="['fab', 'linkedin']" />
           </a>
         </div>

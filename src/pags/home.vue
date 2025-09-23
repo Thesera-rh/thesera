@@ -70,7 +70,7 @@
                 </h1>
             </div>
             <div class="imagem_apresentacao">
-                <img :src="imgApresentacao" alt="imagem de apresentação da Thésera.">
+                <img :src="imgApresentacao" alt="Treinamento e desenvolvimento de líderes de empresas em Blumenau, SC, com a consultoria de RH da Thesera">
             </div>
         </div>
     </header>
@@ -81,7 +81,7 @@
 
     <section class="cotem_apresentacao_da_atuacao contem_conteudo">
         <div class="contem_imagem_atuacao">
-            <img :src="imgCorpo" alt="imagem para representar o que a Thésera faz."></img>
+            <img :src="imgCorpo" alt="Uma equipe de profissionais une as mãos, representando o trabalho em conjunto e a força da cultura organizacional, foco dos serviços de Endomarketing e Employer Branding da Thesera"></img>
         </div>
         <div class="contem_descritivo">
             <p>Atuamos na raiz dos desafios de gestão de pessoas.</p>
