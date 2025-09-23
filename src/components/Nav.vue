@@ -72,10 +72,10 @@ const navLinks = [
           </router-link>
         </li>
         <li key="entre_em_contato">
-          <a 
+          <span 
             @click="handleForm('Entre em Contato')"
             class="entre_em_contato"
-          >Entre em Contato</a>
+          >Entre em Contato</span>
         </li>
       </ul>
     </div>
@@ -101,10 +101,10 @@ const navLinks = [
           </router-link>
         </li>
         <li key="entre_em_contato">
-          <a 
+          <span 
             @click="handleForm('Entre em Contato')"
             class="entre_em_contato"
-          >Entre em Contato</a>
+          >Entre em Contato</span>
         </li>
       </ul>
     </div>
@@ -131,13 +131,13 @@ const navLinks = [
         </router-link>
       </li>
       <li key="entre_em_contato">
-          <a 
+          <span 
             @click="() => {
               toggleMenu()
               handleForm('Entre em Contato')
             }"
             class="entre_em_contato"
-          >Entre em Contato</a>
+          >Entre em Contato</span>
         </li>
     </ul>
   </nav>
@@ -373,12 +373,12 @@ const navLinks = [
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    a{
+                    a, span{
                         flex: 1;
                         padding: 15px 0;
                         text-decoration: none;
                     }
-                    a:hover, .pagina_ativa_mobile{
+                    a:hover, .pagina_ativa_mobile, span:hover{
                         background-color: $verdeMusgo;
                         color: $white;
                         opacity: 0.8;
