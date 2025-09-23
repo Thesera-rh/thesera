@@ -1,6 +1,6 @@
 # Documentação Técnica do Projeto Thesera
 
-**Autor:** Manus AI
+**Autor:** Kohesa Tech
 **Data:** 22 de Setembro de 2025
 
 ## 1. Visão Geral
