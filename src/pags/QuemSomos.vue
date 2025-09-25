@@ -25,7 +25,7 @@
                 content: imgAdimiracaoThiara
             },{
                 property: 'og:url',
-                content: 'https://theserarh.netlify.app/quem-somos'
+                content: 'https://thesera.com.br/quem-somos'
             },{
                 property: 'og:type',
                 content: 'website'

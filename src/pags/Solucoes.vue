@@ -27,7 +27,7 @@
                 content: img19
             },{
                 property: 'og:url',
-                content: 'https://theserarh.netlify.app/solucoes'
+                content: 'https://thesera.com.br/solucoes'
             },{
                 property: 'og:type',
                 content: 'website'

@@ -148,7 +148,7 @@ O processo de build e deploy do projeto é automatizado através da integração
   - `publish = "dist"`: Especifica que o conteúdo do diretório `dist/` deve ser publicado.
   - `NODE_VERSION = "20"`: Garante que o ambiente de build do Netlify use a versão 20 do Node.js, mantendo a consistência com o ambiente de desenvolvimento.
 
-- **Domínio**: Atualmente, o site está disponível em `theserarh.netlify.app`.
+- **Domínio**: Atualmente, o site está disponível em `https://thesera.com.br/`.
 
 ## 6. Sitemap
 
@@ -160,25 +160,25 @@ O sitemap define as URLs principais da aplicação, sua frequência de alteraç�
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://theserarh.netlify.app/</loc>
+    <loc>https://thesera.com.br/</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://theserarh.netlify.app/quem-somos</loc>
+    <loc>https://thesera.com.br/quem-somos</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theserarh.netlify.app/manifesto</loc>
+    <loc>https://thesera.com.br/manifesto</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theserarh.netlify.app/solucoes</loc>
+    <loc>https://thesera.com.br/solucoes</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

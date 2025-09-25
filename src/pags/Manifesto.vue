@@ -25,7 +25,7 @@
                 content: imgApresentacao3
             },{
                 property: 'og:url',
-                content: 'https://theserarh.netlify.app/manifesto'
+                content: 'https://thesera.com.br/manifesto'
             },{
                 property: 'og:type',
                 content: 'website'

@@ -26,7 +26,7 @@
                 content: imgCorpo
             },{
                 property: 'og:url',
-                content: 'https://theserarh.netlify.app/'
+                content: 'https://thesera.com.br/'
             },{
                 property: 'og:type',
                 content: 'website'
