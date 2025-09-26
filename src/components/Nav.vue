@@ -5,7 +5,6 @@ import { useRoute } from "vue-router"
 
 import FormEntreEmContato from "./FormEntreEmContato.vue"
 
-// estado do menu sticky
 const navRef = ref<HTMLElement | null>(null)
 const isSticky = ref(false)
 
@@ -20,7 +19,6 @@ onUnmounted(() => {
     window.removeEventListener("scroll", handleScroll)
 })
 
-// estado do menu mobile
 const isMenuOpen = ref(false)
 const isMenuClick = ref(false)
 
@@ -29,7 +27,6 @@ const toggleMenu = () => {
     isMenuClick.value = true
 }
 
-// estado do formulário
 const isFormOpen = ref(false)
 const handleForm = (opction: string) => {
   if(opction === 'Entre em Contato'){
@@ -37,7 +34,6 @@ const handleForm = (opction: string) => {
   }
 }
 
-// fecha o formulário sempre que mudar de rota
 const route = useRoute()
 watch(
   () => route.fullPath,
@@ -46,7 +42,6 @@ watch(
   }
 )
 
-// links de navegação centralizados em um único array
 const navLinks = [
     { name: "Home", path: "/" },
     { name: "Quem Somos", path: "/quem-somos" },

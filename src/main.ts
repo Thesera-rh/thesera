@@ -34,6 +34,9 @@ export const createApp = ViteSSG(
   { 
     routes,
     base: import.meta.env.BASE_URL,
+    scrollBehavior(to, from, savedPosition) {
+      return { top: 0 }
+    }
   },
   ({ app, router, routes, isClient, initialState }) => {
     // Registra o componente FontAwesome

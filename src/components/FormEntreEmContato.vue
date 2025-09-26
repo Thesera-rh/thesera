@@ -26,7 +26,6 @@ watch(
   }
 )
 
-// estados do form
 const formData = ref({
   nome: '',
   email: '',
@@ -39,37 +38,29 @@ const sending = ref(false)
 const success = ref<boolean | null>(null)
 const errors = ref<{ [key: string]: string }>({})
 
-// regex helpers
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-const phoneRegex = /^\(?\d{2}\)?\s?9?\d{4}-?\d{4}$/ // valida formato (XX) 9XXXX-XXXX ou (XX) XXXX-XXXX
+const phoneRegex = /^\(?\d{2}\)?\s?9?\d{4}-?\d{4}$/
 
-// formatação progressiva do telefone
 const formatPhoneInput = (value: string) => {
-  const numbersOnly = value.replace(/\D/g, '').slice(0, 11) // só números, até 11 dígitos
+  const numbersOnly = value.replace(/\D/g, '').slice(0, 11)
   const len = numbersOnly.length
 
   if (len === 0) return ''
   if (len <= 2) return `(${numbersOnly}`
   if (len <= 6) {
-    // (DD) XXXX...
     return `(${numbersOnly.slice(0, 2)}) ${numbersOnly.slice(2)}`
   }
   if (len <= 10) {
-    // (DD) XXXX-XXXX  -> para 10 dígitos
     return `(${numbersOnly.slice(0, 2)}) ${numbersOnly.slice(2, 6)}-${numbersOnly.slice(6)}`
   }
-  // 11 dígitos -> (DD) 9XXXX-XXXX
   return `(${numbersOnly.slice(0, 2)}) ${numbersOnly.slice(2, 7)}-${numbersOnly.slice(7)}`
 }
 
-// handler do input para formatar enquanto digita
 const onPhoneInput = (e: Event) => {
   const el = e.target as HTMLInputElement
   const formatted = formatPhoneInput(el.value)
   formData.value.telefone = formatted
 
-  // opcional: colocar o cursor no final (simples)
-  // nota: alguns navegadores podem comportar-se diferente; mantemos simples e seguro
   requestAnimationFrame(() => {
     try {
       el.setSelectionRange(formatted.length, formatted.length)
@@ -78,11 +69,9 @@ const onPhoneInput = (e: Event) => {
     }
   })
 
-  // limpa erro enquanto o usuário digita
   if (errors.value.telefone) errors.value.telefone = ''
 }
 
-// validação
 const validateForm = () => {
   const newErrors: { [key: string]: string } = {}
 
@@ -106,7 +95,6 @@ const validateForm = () => {
   return Object.keys(newErrors).length === 0
 }
 
-// função de envio
 const handleSubmit = async (e: Event) => {
   e.preventDefault()
 
@@ -346,10 +334,10 @@ const handleSubmit = async (e: Event) => {
                 position: absolute;
                 bottom: -10px;
                 left: 3%;
-                height: 5px;       // altura da barra
-                width: 0%;          // inicia vazia
+                height: 5px;
+                width: 0%;
                 background-color: $verdeMusgo; 
-                animation: progressLoad 3s linear forwards; // 3s para sumir junto com a mensagem
+                animation: progressLoad 3s linear forwards;
                 border-radius: 30px;
               }
             }

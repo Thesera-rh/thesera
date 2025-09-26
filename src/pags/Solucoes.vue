@@ -293,7 +293,6 @@
     header{
         background-color: $rozaClaro;
         padding: 15px 25px 70px 25px;
-        //margin-bottom: 250px;
         .texto_apresentacao{
             width: 50%;
             margin-top: 90px;

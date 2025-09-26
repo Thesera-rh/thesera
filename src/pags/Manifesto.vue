@@ -157,7 +157,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 551px; //651
+        height: 551px;
         .contem_imagem_header{
             width: 50%;
             max-width: 558px;
@@ -199,7 +199,7 @@
     .gente_que_acredita_no_que_faz{
         .contem_conteudo{
             .contem_header{
-                height: 600px; //660
+                height: 600px;
                 .contem_texto_header{
                     max-width: 558px;
                     background-color: $rozaClaro;
@@ -350,7 +350,6 @@
         }
     }
 
-    //mobile
     @media (max-width: 1227px){
         .gente_que_acredita_no_que_faz{
             .contem_conteudo{
@@ -465,7 +464,7 @@
             }
         }
         .contem_header{
-            height: 330px; //651
+            height: 330px;
             .contem_texto_header{
                 .contem_texto{
                     .linha_separadora{
@@ -691,7 +690,7 @@
             }
         }
         .contem_header{
-            height: 170px; //651
+            height: 170px;
             .contem_texto_header{
                 .contem_texto{
                     .linha_separadora{
